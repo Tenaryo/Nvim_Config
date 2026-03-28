@@ -45,7 +45,7 @@ opt.list = true
 opt.listchars = { tab = "  ", trail = " ", nbsp = " " }
 opt.fillchars = { eob = " " }
 opt.showmode = false
-opt.statusline = " %m %f %= %p%% "
+opt.statusline = " %m %F %= %p%% "
 opt.pumheight = 10
 opt.wildmode = "longest:full,full"
 opt.wildoptions = "pum"
