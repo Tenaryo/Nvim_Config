@@ -15,10 +15,10 @@ return {
       ╚═╝  ╚═══╝╚══════╝ ╚═════╝      ╚═══╝  ╚═╝╚═╝     ╚═╝     
           ]],
           keys = {
-            { icon = " ", key = "f", desc = "Find", action = ":Telescope find_files" },
-            { icon = " ", key = "g", desc = "Grep", action = ":Telescope live_grep" },
-            { icon = " ", key = "l", desc = "Lazy", action = ":Lazy" },
-            { icon = " ", key = "q", desc = "Quit", action = ":qa" },
+            { icon = " ", key = "f", desc = "  Find", action = ":Telescope find_files" },
+            { icon = " ", key = "g", desc = "󰦨  Grep", action = ":Telescope live_grep" },
+            { icon = " ", key = "l", desc = "󰒲  Lazy", action = ":Lazy" },
+            { icon = " ", key = "q", desc = "󰬘  Quit", action = ":qa" },
           },
         },
       },
