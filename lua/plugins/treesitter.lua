@@ -19,7 +19,7 @@ return {
       vim.api.nvim_create_autocmd("FileType", {
         pattern = { "c", "cpp", "bash", "sh", "python", "cmake" },
         callback = function()
-          vim.treesitter.start()
+          pcall(vim.treesitter.start)
         end,
       })
     end,
